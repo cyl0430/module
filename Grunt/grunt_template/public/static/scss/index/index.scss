@@ -1,0 +1,65 @@
+.index_content {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+    }
+    .content {
+        margin-top: 40px;
+        .link {
+            .item {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 14px;
+                color: #000000;
+                line-height: 24px;
+                .explain{
+                    margin-left: 10px;
+                }
+            }
+            .item_title {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: left;
+            }
+            ._30 {
+                margin-left: 30px;
+            }
+            ._60 {
+                margin-left: 60px;
+            }
+            ._90 {
+                margin-left: 90px;
+            }
+        }
+        .btn {
+            margin: 0 auto;
+            margin-top: 50px;
+            width: 150px;
+            height: 40px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 40px;
+            background-color: #000000;
+            color: white;
+            -webkit-transition: border-radius 0.5s;
+            -moz-transition: border-radius 0.5s;
+            -ms-transition: border-radius 0.5s;
+            -o-transition: border-radius 0.5s;
+            transition: border-radius 0.5s;
+            cursor: pointer;
+            &:hover {
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                border-radius: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Grunt模板</title>
+	<link rel="stylesheet" type="text/css" href="../../public/static/layer.css"/>
+	<link rel="stylesheet" type="text/css" href="../../public/static/css/public/base.css"/>
+	<link rel="stylesheet" type="text/css" href="../../public/static/css/index/index.css"/>
+</head>
+<body>
+	<div class="index_content">
+		<div class="title">
+			Grunt + Require + Sass + Watch 模板
+		</div>
+		<div class="content">
+			<ul class="link">
+				<li class="item item_title">此模板执行的命令 :</li>
+				<li class="item">step1 : 每次新建.sass 文件后,均需执行 grunt sass 来创建相对应的 .css 文件</li>
+				<li class="item">step2 : 每次在 src 目录下新建完 .JS 文件后,均需执行 grunt require 在js目录下创建相对应的js文件</li>
+				<li class="item">step3 : grunt watch 开启监听,即可开始编译</li>
+				<li class="item item_title">备注 :</li>
+				<li class="item">1.如果你是从我的GitHub上下载下来的,需要先 cnpm install 下载依赖</li>
+				<li class="item">2.如果js代码报错,watch监听会自动终止运行,此时需要重新开启监听 grunt require + grunt watch</li>
+				<li class="item item_title">目录介绍 :</li>
+				<li class="item">
+					XXX
+					<span class="explain">
+						项目名称
+					</span>
+				</li>
+				<li class="item _30">
+					---public
+					<span class="explain">
+						存放前端所用全部文件
+					</span>
+				</li>
+				<li class="item _60">
+					---static
+					<span class="explain">
+						存放前端所用全部静态资源
+					</span>
+				</li>
+				<li class="item _90">
+					---css
+					<span class="explain">
+						存放页面所用的压缩后的css文件
+					</span>
+				</li>
+				<li class="item _90">
+					---js
+					<span class="explain">
+						存放页面所用的压缩后的js文件
+					</span>
+				</li>
+				<li class="item _90">
+					---scss
+					<span class="explain">
+						存放前端编写的源文件 css样式
+					</span>
+				</li>
+				<li class="item _90">
+					---src
+					<span class="explain">
+						存放前端编写的源文件 js代码
+					</span>
+				</li>
+				<li class="item _90">
+					---require.js
+					<span class="explain">
+						引入 require.js ,实现js代码模块化
+					</span>
+				</li>
+				<li class="item _30">
+					---view
+					<span class="explain">
+						视图
+					</span>
+				</li>
+				<li class="item _60">
+					---index
+					<span class="explain">
+						存放页面分类 html文件
+					</span>
+				</li>
+				<li class="item _30">
+					---Gruntfile.js
+					<span class="explain">
+						存放grunt的配置,包括但不限于 scss/watch/代码压缩 等环境
+					</span>
+				</li>
+				<li class="item _30">
+					---package.json
+					<span class="explain">
+						存放本项目所引用的npm插件,也是npm所要执行的命令
+					</span>
+				</li>
+			</ul>
+			<div class="btn js_more">了解更多</div>
+		</div>
+	</div>
+</body>
+<script data-main="../../public/static/js/index/index.js" src="../../public/static/require.js"></script>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "001__css",
+  "version": "1.0.0",
+  "description": "css打包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jscyl",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1"
+  }
+}
